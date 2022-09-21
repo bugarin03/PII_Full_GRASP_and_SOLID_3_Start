@@ -9,7 +9,7 @@ using System.Collections;
 using System.Linq;
 using Full_GRASP_And_SOLID.Library;
 
-namespace Full_GRASP_And_SOLID
+namespace Full_GRASP_And_SOLID.Library
 {
     public class Program
     {
@@ -28,7 +28,7 @@ namespace Full_GRASP_And_SOLID
 
             IPrinter printer = new ConsolePrinter();
             IPrinter printer1 = new FilePrinter();
-            
+
         }
 
         private static void PopulateCatalogs()
