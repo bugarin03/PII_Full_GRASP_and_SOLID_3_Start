@@ -28,7 +28,7 @@ namespace Full_GRASP_And_SOLID
 
             IPrinter printer = new ConsolePrinter();
             IPrinter printer1 = new FilePrinter();
-
+            
         }
 
         private static void PopulateCatalogs()
